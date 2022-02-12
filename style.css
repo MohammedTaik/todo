@@ -1,0 +1,161 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #000000;
+    color: #fff;
+}
+
+h1{
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: 50;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Hind';
+    margin-bottom: 50px;
+}
+
+.title{
+    color: #0a795d;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+ .task{
+   
+     margin-top: 30px;
+     margin-bottom: 30px;
+     width: 55vw;
+     margin-left: auto;
+     margin-right: auto;
+    padding:  20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 10px;
+ }
+
+ p{
+     font-size: 22px;
+     font-family: 'Poppins', sans-serif;
+     color: #000000;
+ }
+
+
+
+ .icon:hover{
+    font-size: 26px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon-star, .icon-trash{
+    opacity: 0.4;
+    font-size: 27px;
+    color: #000000;
+}
+
+.icon-star:hover{
+    color: orange;
+    opacity: 1;
+    font-size: 29px;
+}
+
+.icon-trash{
+    margin-right: 10px;
+    font-size: 27px;
+    
+}
+
+
+.icon-trash:hover{
+color: rgb(185, 8, 8);
+font-size: 29px;
+opacity: 1;
+}
+
+.icon-file_done{
+    color: rgb(168, 3, 3);
+    font-size: 30px;
+}
+
+.icon-file_done:hover{
+    font-size: 32px;
+    opacity: 1;
+}
+
+
+form{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 12px;
+    width: 35vw;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    border-color: #fff;
+    border: 3px;
+}
+
+input:focus{
+    border-color: #0a795d;
+    border: 2px;
+    
+}
+
+
+button {all: unset;}
+
+
+.icon-plus{
+    font-size: 45px;
+   
+    margin-left: 17px;
+    
+    position: relative;
+    top: 9px;
+
+ 
+}
+
+.icon-plus:hover{ 
+    font-size: 43px;
+    transition: 0.2s;
+    color: rgb(7, 161, 84);
+    cursor: pointer;
+ }
+
+
+
+ /* for javascript */
+
+
+ .dn{
+     display: none;
+ }
+
+ .finish{
+    text-decoration-line:line-through;
+    text-decoration-style: wavy;
+
+ }
+
+ .orange{
+     color: orange;
+     opacity: 1;
+ }
+
+ .green{
+     color: #0a795d;
+     opacity: 1;
+ }
